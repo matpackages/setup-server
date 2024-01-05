@@ -1,6 +1,6 @@
 # setup-server
 
-TODO
+Setup server for bootstrapping matlabpackages (get.matlabpackages.com)
 
 ## Start server
 
