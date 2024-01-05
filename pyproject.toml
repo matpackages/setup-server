@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "setup-server"
+version = "1.0.0"
+description = "Setup server for bootstrapping matlabpackages (get.matlabpackages.com)"
+authors = ["Patrick <patrsc@nubu.at>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "setup_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.108.0"
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

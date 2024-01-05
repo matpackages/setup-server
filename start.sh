@@ -1,4 +1,4 @@
 #/bin/bash
 source .env
 
-pipenv run uvicorn server:app --reload --port 5001
+poetry run uvicorn server:app --reload --port 5001
