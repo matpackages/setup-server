@@ -27,3 +27,5 @@ Start server in production mode (using Docker container):
 
     docker build . -t setup-server
     docker run -e GITHUB_TOKEN -p 8080:80 setup-server
+
+test
