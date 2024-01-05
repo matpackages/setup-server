@@ -10,4 +10,4 @@ Create a file `.env` and add the following content:
 
 Start server:
 
-    bash bootstrap-server-start.sh
+    bash start.sh
