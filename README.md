@@ -2,7 +2,7 @@
 
 Setup server for bootstrapping matlabpackages (get.matlabpackages.com)
 
-## Prerequisites
+## Install
 
 Clone this repository:
 
