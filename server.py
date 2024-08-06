@@ -1,11 +1,11 @@
-"""Setup Server get.matlabpackages.com for bootstraping matlabpackages."""
+"""Setup Server get.matpackages.com for bootstraping matpackages."""
 import os
 
 from fastapi import FastAPI, Response
 import requests
 
 
-REPO_API = 'https://api.github.com/repos/matlabpackages/matlabpackages'
+REPO_API = 'https://api.github.com/repos/matpackages/matpackages'
 token = os.environ.get('GITHUB_TOKEN')
 app = FastAPI()
 
@@ -14,13 +14,13 @@ app = FastAPI()
 @app.get("/")
 def root():
     """Root route."""
-    url = f'{REPO_API}/contents/get_matlabpackages.m'
+    url = f'{REPO_API}/contents/get_matpackages.m'
     return _github_request(url, accept='application/vnd.github.raw', media_type='text/plain')
 
 
 @app.get("/latest.zip")
 def download_latest():
-    """Download latest version of matlabpackages as zip file."""
+    """Download latest version of matpackages as zip file."""
     url = f'{REPO_API}/zipball/master'
     return _github_request(url, accept='application/vnd.github+json', media_type='application/zip')
 

@@ -1,12 +1,12 @@
 # setup-server
 
-Setup server for bootstrapping matlabpackages (get.matlabpackages.com)
+Setup server for bootstrapping matpackages (get.matpackages.com)
 
 ## Install
 
 Clone this repository:
 
-    git clone https://github.com/matlabpackages/setup-server.git
+    git clone https://github.com/matpackages/setup-server.git
     cd setup-server
 
 Create a file `.env` and add the following content:

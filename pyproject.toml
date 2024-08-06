@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "setup-server"
 version = "1.0.0"
-description = "Setup server for bootstrapping matlabpackages (get.matlabpackages.com)"
+description = "Setup server for bootstrapping matpackages (get.matpackages.com)"
 authors = ["Patrick <patrsc@nubu.at>"]
 license = "MIT"
 readme = "README.md"
